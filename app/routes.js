@@ -33,6 +33,7 @@ module.exports = function (app) {
                 res.send(err);
 
             // get and return all the todos after you create another
+	    res.status(201);
             //getTodos(res);
         });
 
@@ -46,6 +47,7 @@ module.exports = function (app) {
             if (err)
                 res.send(err);
 
+	    res.status(201);
             //getTodos(res);
         });
     });

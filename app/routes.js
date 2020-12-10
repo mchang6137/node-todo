@@ -33,7 +33,7 @@ module.exports = function (app) {
                 res.send(err);
 
             // get and return all the todos after you create another
-            getTodos(res);
+            //getTodos(res);
         });
 
     });
@@ -46,7 +46,7 @@ module.exports = function (app) {
             if (err)
                 res.send(err);
 
-            getTodos(res);
+            //getTodos(res);
         });
     });
 

@@ -47,8 +47,8 @@ module.exports = function (app) {
             if (err)
                 res.send(err);
 
-	    res.status(201).json({});
-            //getTodos(res);
+	    //res.status(201).json({});
+            getTodos(res);
         });
     });
 
